@@ -1,0 +1,14 @@
+#include<iostream>
+int main(){
+    int num1,num2,num3;
+    std::cout<<"enter first integer:";
+    std::cin>>num1;
+    std::cout<<"enter second integer:";
+    std::cin>>num2;
+    std::cout<<"enter the third integer:";
+    std::cin>>num3;
+    int sum=num1+num2+num3;
+    int avarage=sum/3;
+    std::cout<<"the avarage of the number is:"<<avarage<<std::endl;
+    return 0;
+}
