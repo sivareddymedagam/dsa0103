@@ -1,0 +1,14 @@
+#include <iostream>
+int main() {
+int num;
+std::cout<<"enter the number:";
+  std::cin>>num;
+if(num>0){
+    std::cout<<"number is positive number";
+} else if(num<0){
+    std::cout<<"number is negitive number";
+}else {
+    std::cout<<"the number is zero";
+}
+return 0;
+}
